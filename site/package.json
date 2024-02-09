@@ -1,6 +1,6 @@
 {
   "name": "group-ironmen",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "devDependencies": {
     "axios": "^0.26.1",
