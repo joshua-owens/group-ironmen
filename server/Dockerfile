@@ -19,4 +19,5 @@ COPY --from=builder /app/collection_log_info.json ./
 COPY ./docker-entrypoint.sh ./
 
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
+
 CMD ["/app/server"]
