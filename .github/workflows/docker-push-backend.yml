@@ -25,5 +25,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./server
+          platforms: linux/arm64
           push: true
           tags: lpod64/gim-backend:latest

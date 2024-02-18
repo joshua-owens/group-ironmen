@@ -26,4 +26,5 @@ jobs:
         with:
           context: ./site
           push: true
+          platforms: linux/arm64
           tags: lpod64/gim-frontend:latest
