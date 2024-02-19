@@ -5,7 +5,7 @@ import { exampleData } from "./example-data";
 
 class Api {
   constructor() {
-    this.baseUrl = "https://gim.jowens.dev/api";
+    this.baseUrl = "https://api-gim.jowens.dev/api";
     this.createGroupUrl = `${this.baseUrl}/create-group`;
     this.exampleDataEnabled = false;
     this.enabled = false;
